@@ -37,18 +37,22 @@ sos.connect(function(err, sosDevice) {
 # Index
 
 ## sos
+
  * [connect](#sosConnect)
 
 ## sosDevice
+
  * [readAllInfo](#sosDeviceReadAllInfo)
  * [sendControlPacket](#sosDeviceSendControlPacket)
 
 # API Documentation
 
 <a name="sos"/>
+
 ## sos
 
 <a name="sosConnect" />
+
 **sos.connect(callback)**
 
 Connects to the Siren of Shame device.
@@ -58,9 +62,11 @@ __Arguments__
  * callback(err, sosDevice) - The callback called once the device is connected.
 
 <a name="sosDevice"/>
+
 ## sosDevice
 
 <a name="sosDeviceReadAllInfo" />
+
 **sosDevice.readAllInfo(callback)**
 
 Gets all information from the SoS device (LED patterns, Audio patterns, version, etc.).
@@ -70,6 +76,7 @@ __Arguments__
  * callback(err, deviceInfo) - The callback called once the device info is retrieved.
 
 <a name="sosDeviceSendControlPacket" />
+
 **sosDevice.sendControlPacket(packet, callback)**
 
 Sends a control packet (ie controls the SoS device).
